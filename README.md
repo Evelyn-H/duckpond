@@ -12,10 +12,9 @@ or like wherever your config is idk, i'm not you. i'm sure you can do it ^^
 
 ```sh
 ln -s duckpond/opencode.json ~/.config/opencode/opencode.json
-ln -s duckpond/AGENTS.md     ~/.config/opencode/AGENTS.md
+ln -s duckpond/CLAIRE.md     ~/.config/opencode/CLAIRE.md
 ln -s duckpond/skills        ~/.config/opencode/skills
 ln -s duckpond/agents        ~/.config/opencode/agents
 ```
-
 
 and also add `alias claire='opencode'` to your shell profile of course while you're at it
