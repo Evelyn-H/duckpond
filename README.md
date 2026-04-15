@@ -1,6 +1,8 @@
 # duckpond
 
-opencode config and agents for local models.
+my opencode config built for local models and AI pair programming.
+
+> she's just claire, the rubber duck on your desk.
 
 ## setup
 
