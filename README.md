@@ -8,7 +8,6 @@ opinionated and deeply underious. swim in the pond at your own risk.
 ## setup
 
 clone the repo, then symlink (or copy) the following into `~/.config/opencode/`:  
-
 or like wherever your config is idk, i'm not you. i'm sure you can do it ^^
 
 ```sh
