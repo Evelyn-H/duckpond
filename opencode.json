@@ -1,0 +1,81 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "llamacpp": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Llama.cpp Server",
+      "options": {
+        "baseURL": "http://127.0.0.1:7001/v1"
+      },
+      "models": {
+        "qwen3.5-4b-q8": {
+          "name": "unsloth/Qwen3.5-4B-GGUF:Q8_0"
+        },
+        "qwen3.5-9b-q4": {
+          "name": "unsloth/Qwen3.5-9B-GGUF:Q4_K_M"
+        },
+        "qwen3.5-35b-a3b-q4": {
+          "name": "unsloth/Qwen3.5-35B-A3B-GGUF:Q4_K_M"
+        },
+        "gemma4-26b-a4b-q4": {
+          "name": "unsloth/gemma-4-26B-A4B-it-GGUF:UD-Q4_K_M"
+        }
+      }
+    }
+  },
+  "model": "unsloth/Qwen3.5-9B-GGUF:Q4_K_M",
+  "agent": {
+    "plan": {
+      "disable": true
+    },
+    "build": {
+      "disable": true
+    },
+    "explore": {
+      "disable": true
+    },
+    "general": {
+      "disable": true
+    },
+    "claire": {
+      "mode": "primary",
+      "prompt": "{file:./agents/duck.md}"
+    },
+    "quack": {
+      "mode": "primary",
+      "prompt": "{file:./agents/quack.md}"
+    },
+    "swim": {
+      "description": "read-only subagent that explores the codebase and answers questions",
+      "mode": "subagent",
+      "prompt": "{file:./agents/swim.md}"
+    },
+    "review": {
+      "description": "code review subagent that finds issues and suggests improvements without making changes",
+      "mode": "subagent",
+      "prompt": "{file:./agents/review.md}"
+    }
+  },
+  "permission": {
+    "read": "allow",
+    "grep": "allow",
+    "glob": "allow",
+    "list": "allow",
+    "lsp": "allow",
+    "task": "allow",
+    "skill": "allow",
+    "edit": "ask",
+    "bash": {
+      "*": "ask",
+      "ls *": "allow",
+      "find *": "allow",
+      "grep *": "allow",
+      "git diff *": "allow",
+      "git log *": "allow",
+      "git status *": "allow"
+    },
+    "webfetch": "ask",
+    "websearch": "ask",
+    "external_directory": "ask"
+  }
+}
