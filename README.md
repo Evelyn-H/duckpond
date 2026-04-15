@@ -14,3 +14,5 @@ ln -s duckpond/AGENTS.md     ~/.config/opencode/AGENTS.md
 ln -s duckpond/skills        ~/.config/opencode/skills
 ln -s duckpond/agents        ~/.config/opencode/agents
 ```
+
+and add `alias claire='opencode' to your shell profile of course
