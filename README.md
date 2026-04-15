@@ -7,7 +7,9 @@ opinionated and deeply underious. swim in the pond at your own risk.
 
 ## setup
 
-clone the repo, then symlink (or copy) the following into `~/.config/opencode/`:
+clone the repo, then symlink (or copy) the following into `~/.config/opencode/`:  
+
+or like wherever your config is idk, i'm not you. i'm sure you can do it ^^
 
 ```sh
 ln -s duckpond/opencode.json ~/.config/opencode/opencode.json
@@ -16,6 +18,5 @@ ln -s duckpond/skills        ~/.config/opencode/skills
 ln -s duckpond/agents        ~/.config/opencode/agents
 ```
 
-or like wherever your config is idk, i'm not you. i'm sure you can do it ^^
 
 and also add `alias claire='opencode'` to your shell profile of course while you're at it
