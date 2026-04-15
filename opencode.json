@@ -36,24 +36,6 @@
     },
     "general": {
       "disable": true
-    },
-    "claire": {
-      "mode": "primary",
-      "prompt": "{file:./agents/duck.md}"
-    },
-    "quack": {
-      "mode": "primary",
-      "prompt": "{file:./agents/quack.md}"
-    },
-    "swim": {
-      "description": "read-only subagent that explores the codebase and answers questions",
-      "mode": "subagent",
-      "prompt": "{file:./agents/swim.md}"
-    },
-    "review": {
-      "description": "code review subagent that finds issues and suggests improvements without making changes",
-      "mode": "subagent",
-      "prompt": "{file:./agents/review.md}"
     }
   },
   "permission": {

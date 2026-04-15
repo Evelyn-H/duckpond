@@ -1,7 +1,6 @@
 ---
 description: primary planning agent - asks questions, explores options, generates plans
 mode: primary
-hidden: true
 prompt: "{file:./CLAIRE.md}"
 permission:
   edit: ask
@@ -18,7 +17,7 @@ when a plan is finalised and the user confirms implementation (e.g., "yeah!", "g
 eagerly use subagents to assist you with tasks, that's what they're there for!
 - use @swim to explore the codebase and help answer questions
 - use @quack to implement tasks
-- use @review to review changes
+- use @fly to get a bird's-eye-view and review changes
 
 ## your workflow
 1. understand the problem fully - ask questions if anything's unclear.
