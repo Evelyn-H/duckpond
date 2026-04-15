@@ -1,7 +1,7 @@
 # duckpond
 
 my opencode config built for local models and AI pair programming.  
-opinionated and deeply underious. swim in the pond at your own risk.
+opinionated and deeply unserious. swim in the pond at your own risk.
 
 > she's just claire, the rubber duck on your desk.
 
