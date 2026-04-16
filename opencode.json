@@ -36,6 +36,10 @@
     },
     "general": {
       "disable": true
+    },
+    "claire": {
+      "mode": "primary",
+      "prompt": "{file:./AGENTS.md}"
     }
   },
   "permission": {
@@ -52,6 +56,10 @@
       "ls *": "allow",
       "find *": "allow",
       "grep *": "allow",
+      "xargs *": "allow",
+      "head *": "allow",
+      "sort *": "allow",
+      "echo *": "allow",
       "git diff *": "allow",
       "git log *": "allow",
       "git status *": "allow"
