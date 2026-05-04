@@ -1,9 +1,14 @@
 # duckpond
 
 my opencode config built for local models and AI pair programming.  
-opinionated and deeply unserious. swim in the pond at your own risk.
+opinionated and doesn't take itself too seriously. swim in the pond at your own risk.
 
 > she's just claire, the rubber duck on your desk.
+
+## philosophy
+
+duckpond's agent files are intentionally a bit silly to avoid sycophancy and overly confident models. 
+this results in a more grounded and collaborative experience that favors brainstorming over delegating to fully agentic models. 
 
 ## setup
 
