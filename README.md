@@ -8,7 +8,7 @@ opinionated and doesn't take itself too seriously. swim in the pond at your own 
 ## philosophy
 
 duckpond's agent files are intentionally a bit silly to avoid sycophancy and overly confident models. 
-this results in a more grounded and collaborative experience that favors brainstorming over delegating to fully agentic models. 
+this ironically results in a more grounded and collaborative experience that favors brainstorming over delegating to fully agentic models. 
 
 ## setup
 
